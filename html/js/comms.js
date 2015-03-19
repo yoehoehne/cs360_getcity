@@ -3,14 +3,14 @@ $(document).ready(function(){
         var myobj = {Name:$("#Name").val(), Comment:$("#Comment").val()};
 	var jobj = JSON.stringify(myobj);
 	$("#json").text(jobj);
-	var url = "http://52.11.22.46/comment";
+	var url = "https://52.11.22.46/comment";
         $.post(url,jobj,function(data,textStatus) {
           $("#done").text(textStatus);
         });
     });
 
     $("#getButton").click(function(){
-	var url = "http://52.11.22.46/comment";
+	var url = "https://52.11.22.46/comment";
 	$.get(url, function(data, textStatus){
 		var everything;
         	everything = "<ul>";
