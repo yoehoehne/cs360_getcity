@@ -1,15 +1,17 @@
 {
   "name": "getcityapi.yoehoehne",
   "version": "0.0.1",
-   "author": "Joseph Hoehne",
-   "description": "Gets cities in Utah",
-   "main": "static",
+  "author": "Joseph Hoehne",
+  "description": "Gets cities in Utah",
+  "main": "static",
   "repository": {
-        "type": "git",
-        "url": "http://github.com/yoehoehne/cs360_getcity"
-    },
-   "dependencies": {},
-   "engines": {
-       "node": "*"
-   }
+    "type": "git",
+    "url": "http://github.com/yoehoehne/cs360_getcity"
+  },
+  "dependencies": {
+    "basic-auth-connect": "^1.0.0"
+  },
+  "engines": {
+    "node": "*"
+  }
 }
